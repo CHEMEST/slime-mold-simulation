@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="Slime Mold Simulation"
-config/features=PackedStringArray("4.4", "Forward Plus")
+run/main_scene="uid://dvo3615yl5ypu"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
