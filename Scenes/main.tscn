@@ -1,19 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://kehx2ctxbhfg"]
+[gd_scene load_steps=2 format=3 uid="uid://dvo3615yl5ypu"]
 
-[ext_resource type="Script" uid="uid://bbosfaga05qhm" path="res://Scripts/leniagd.gd" id="1_r150o"]
+[ext_resource type="Script" uid="uid://di3glaa2b82b2" path="res://Scripts/Renderer.cs" id="1_jjgbg"]
 
 [node name="Main" type="Node2D"]
-
-[node name="TextureRect" type="TextureRect" parent="."]
-custom_minimum_size = Vector2(1000, 1000)
-offset_left = 5.0
-offset_top = 3.0
-offset_right = 1005.0
-offset_bottom = 1003.0
-script = ExtResource("1_r150o")
-
-[node name="Kernel_rect" type="TextureRect" parent="TextureRect"]
-unique_name_in_owner = true
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+script = ExtResource("1_jjgbg")
